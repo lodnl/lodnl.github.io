@@ -27,7 +27,9 @@ jobs:
           working_directory: cv
 
       - name: Add CV to the site
-        run: cp cv/cv.pdf site/files/cv.pdf
+        run: |
+          mkdir -p site/files
+          cp cv/cv.pdf site/files/cv.pdf
 
       - uses: ruby/setup-ruby@v1
         with:
