@@ -1,0 +1,15 @@
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+cv/cv.pdf
+
+# Site build output; the CV PDF is copied in by `make cv` and by the GitHub Action
+site/_site/
+site/.jekyll-cache/
+site/vendor/
+site/.bundle/
+site/files/cv.pdf
