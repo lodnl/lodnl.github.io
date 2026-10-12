@@ -9,13 +9,19 @@ the site to GitHub Pages (`.github/workflows/deploy.yml`).
 
 ## Local build
 
-Requires TeX Live (`pdflatex`, `latexmk`) for the CV, and Ruby with Bundler for the site.
+- **CV**: requires a TeX distribution with `pdflatex` and `latexmk`
+  (Linux: `sudo apt install texlive-latex-extra latexmk`; macOS: [MacTeX](https://www.tug.org/mactex/)).
+- **Site preview**: requires [Docker](https://docs.docker.com/get-docker/) (Docker Desktop on macOS).
+  Jekyll runs in a Ruby 3.2 container, so nothing Ruby-related is installed on the machine.
 
 ```sh
 make cv     # builds cv/cv.pdf and copies it into the site
-make site   # builds the CV, then serves the site at http://localhost:4000
+make site   # builds the CV, then serves the site at http://localhost:4000 (Ctrl+C to stop)
 make clean  # removes build files
 ```
+
+The first `make site` downloads the Ruby image and the gems (a few minutes); later runs reuse them
+(gems are kept in `site/vendor/`, ignored by git).
 
 ## Updating the CV
 
