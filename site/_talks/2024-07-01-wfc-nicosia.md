@@ -4,6 +4,6 @@ collection: talks
 type: "Conference presentation"
 permalink: /talks/2024-07-01-wfc-nicosia
 venue: "World Finance Conference"
-date: 2024-07-01
+date: 2024-08-01
 location: "Nicosia, Cyprus"
 ---

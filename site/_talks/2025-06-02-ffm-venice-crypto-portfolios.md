@@ -4,6 +4,6 @@ collection: talks
 type: "Conference presentation"
 permalink: /talks/2025-06-02-ffm-venice-crypto-portfolios
 venue: "Forecasting Financial Markets Conference"
-date: 2025-06-02
+date: 2025-05-21
 location: "Venice, Italy"
 ---

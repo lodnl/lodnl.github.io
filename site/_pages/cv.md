@@ -27,16 +27,19 @@ Education
 Work experience
 ======
 * **CIFRE Doctoral Researcher**, Quantamental team, Arkéa Asset Management, 2023 – 2026
-  * Built the team's market database in Python, fed by daily batch jobs from 6 data sources and covering 500+ crypto-assets and equities
-  * Turned the thesis methods (pair trading, bubble detection, systemic-risk measures) into 4 in-house tools and contributed to the design of 3 quantitative strategies
+  * Built market database in Python, fed by daily batch jobs from different data sources 
+  and covering 500+ crypto-assets and equities
+  * Transposition of the thesis methods 
+      to traditional asset classes, contributing to the design of quantitative strategies in traditional financial markets
   * Supported the quantamental team on its research questions and presented quantitative work to non-specialist colleagues
 * **Portfolio Management Assistant**, Private Wealth Management, Arkéa Asset Management (formerly Federal Finance Gestion), 2021 – 2023
   * Apprenticeship, then fixed-term contract from September 2022
-  * Developed decision-support tools in VBA and Python, used daily by 8 portfolio managers, including a Reuters-based dashboard covering 300+ funds and stocks
-  * Created a daily market-sentiment indicator, backtested over 10 years in Python and emailed automatically to 40+ recipients
-  * Automated client and sales presentations, cutting preparation time from 2 days to 2 hours each month
+  * Developed decision-support tools in VBA and Python, used daily by portfolio managers, including a Reuters-based dashboard covering funds and stocks
+  * Created a daily market-sentiment indicator, backtested over years in Python and emailed automatically to portfolio managers
+  * Automated client and sales presentations with VBA, significantly reducing PowerPoint preparation time
 * **Technical Sales Assistant** (internship), business banking branch, Crédit Agricole Anjou Maine, Laval, 2021
-  * Ran the mandatory KYC update of the branch's 120+ corporate clients single-handedly, making Laval the first branch of Crédit Agricole Anjou Maine to complete it
+  * Ran the mandatory KYC update of the branch's corporate clients single-handedly, making
+        Laval the first branch of Crédit Agricole Anjou Maine to complete it.
 
 Publications
 ======
@@ -54,7 +57,7 @@ Skills
 ======
 * **Econometrics**: cointegration (Engle–Granger, Johansen), error-correction models, GARCH, mixed causal–noncausal VAR with α-stable innovations (GCov), panel local projections (Jordà) with Driscoll–Kraay inference
 * **Risk and bubbles**: ΔCoVaR, TVP-VAR and quantile VAR connectedness (Diebold–Yilmaz), LPPLS bubble detection
-* **Machine learning**: Random Forest, SVM, Gaussian Mixture Models, genetic algorithms
+* **Machine learning**: Random Forest, Support Vectors Machines, Gaussian Mixture Models, genetic algorithms
 * **Portfolio construction**: Markowitz optimisation, tracking-error minimisation, Maximally Machine Learnable Portfolio
 * **Programming**: Python, VBA, R, Stata, MATLAB, WinRATS, SQL
 * **Market data**: Bloomberg (certified), Reuters
